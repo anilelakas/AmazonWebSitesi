@@ -1,0 +1,67 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+li {
+  list-style-type: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+input {
+  height: 40px;
+  width: 350px;
+  padding: 12px;
+  border: none;
+}
+
+nav {
+  display: flex;
+  justify-content: space-around;
+  min-height: 7vh;
+  align-items: center;
+  background-color: rgb(2, 2, 43);
+  color: white;
+}
+
+nav .logo {
+  font-size: 22px;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+nav .nav-links {
+  display: flex;
+  justify-content: space-around;
+  width: 80%;
+}
+
+nav .nav-links a {
+  font-size: 20px;
+  font-weight: normal;
+  cursor: pointer;
+}
+
+nav .nav-links a:hover {
+  border-bottom: 1px solid #fff;
+}
+
+nav .nav-links a:visited {
+  color: blue;
+}
+
+nav .cartItem {
+  color: white;
+}
+
+nav .cartItem:hover {
+  color: white;
+}
+
+nav .cartItem:visited {
+  color: white;
+}
